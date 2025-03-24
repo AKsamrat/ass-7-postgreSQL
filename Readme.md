@@ -145,7 +145,7 @@ RIGHT JOIN (or RIGHT OUTER JOIN):
         SELECT customers.customer_name, orders.order_id
 FROM customers
 RIGHT JOIN orders ON customers.customer_id = orders.customer_id;
-```   
+ 
 
 FULL JOIN (or FULL OUTER JOIN):
 
@@ -234,8 +234,6 @@ COUNT() ফাংশন:
 COUNT() ফাংশন একটি টেবিলের সারি বা একটি কলামের নন-NULL মানের সংখ্যা গণনা করে।
 
 উদাহরণ:
-
-SQL
 
 SELECT COUNT(*) FROM customers; -- টেবিলের মোট সারি সংখ্যা গণনা করে
 SELECT COUNT(email) FROM customers; -- email কলামের নন-NULL মানের সংখ্যা গণনা করে
